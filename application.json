@@ -1,8 +1,16 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "HOME - leave blank",
       "isDefault": true
+    },
+    {
+      "id": "Buyers - Get all Products",
+      "isDefault": false
+    },
+    {
+      "id": "Buyers - Get specific",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,6 +18,9 @@
   "unreadCommentThreads": 0,
   "color": "#F3F1C7",
   "icon": "couples",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
