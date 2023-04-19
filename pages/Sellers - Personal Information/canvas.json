@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Buyers - Get specific",
-    "slug": "buyers-get-specific",
+    "name": "Sellers - Personal Information",
+    "slug": "sellers-personal-information",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         },
         "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Buyers - Get specific",
+        "id": "Sellers - Personal Information",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "64403bb3efbc5071664ac6f5_644041e2efbc5071664ac700"
+  "gitSyncId": "64403bb3efbc5071664ac6f5_64406c76a8f3606dbee19a2c"
 }

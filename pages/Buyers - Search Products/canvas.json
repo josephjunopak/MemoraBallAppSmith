@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Buyers - Get all Products",
-    "slug": "buyers-get-all-products",
+    "name": "Buyers - Search Products",
+    "slug": "buyers-search-products",
     "layouts": [
       {
         "viewMode": false,
@@ -236,7 +236,7 @@
               "showStepArrows": false,
               "minWidth": 450,
               "isVisible": true,
-              "label": "Search Team ID",
+              "label": "Search Product ID",
               "version": 2,
               "parentId": "0",
               "labelAlignment": "left",
@@ -619,7 +619,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Buyers - Get all Products_GET_Team_Products",
+              "id": "Buyers - Search Products_GET_Team_Products",
               "name": "GET_Team_Products",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -633,7 +633,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Buyers - Get all Products",
+        "id": "Buyers - Search Products",
         "deleted": false,
         "policies": [],
         "userPermissions": []

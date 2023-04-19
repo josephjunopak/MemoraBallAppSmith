@@ -1,0 +1,3 @@
+{
+	"buyer_email": {{Input1.text}}
+}

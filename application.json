@@ -5,11 +5,19 @@
       "isDefault": true
     },
     {
-      "id": "Buyers - Get all Products",
+      "id": "Buyers - Search Products",
       "isDefault": false
     },
     {
-      "id": "Buyers - Get specific",
+      "id": "Buyers - Personal Information",
+      "isDefault": false
+    },
+    {
+      "id": "Sellers - Post and Delete",
+      "isDefault": false
+    },
+    {
+      "id": "Sellers - Personal Information",
       "isDefault": false
     }
   ],
@@ -19,6 +27,9 @@
   "color": "#F3F1C7",
   "icon": "couples",
   "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
     "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],
