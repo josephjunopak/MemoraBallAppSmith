@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "PUT_Update_Email",
+    "name": "Api1",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/buyers/{{Input2.text}}/email"
+        "url": "web:4000/p/product"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Buyers - Personal Information",
+    "pageId": "Sellers - Post",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"buyer_email\":{{Input1.text}}\n}",
+      "body": "{\n\t\"product_name\":{{Input1.text}},\n\t\"product_price\":{{CurrencyInput1.text}},\n\t\"product_team\":{{Input2.text}},\n\t\"product_description\":{{Input3.text}}\n}",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -45,25 +45,27 @@
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "body"
+        "key": "datasourceUrl"
       },
       {
-        "key": "datasourceUrl"
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "CurrencyInput1.text",
       "Input1.text",
-      "Input2.text"
+      "Input2.text",
+      "Input3.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Buyers - Personal Information_PUT_Update_Email",
+  "id": "Sellers - Post_Api1",
   "deleted": false,
-  "gitSyncId": "64403bb3efbc5071664ac6f5_644069acd9990a5115651ffd"
+  "gitSyncId": "64403bb3efbc5071664ac6f5_64408deda8f3606dbee19a43"
 }

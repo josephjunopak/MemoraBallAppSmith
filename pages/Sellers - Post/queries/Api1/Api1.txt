@@ -1,0 +1,6 @@
+{
+	"product_name":{{Input1.text}},
+	"product_price":{{CurrencyInput1.text}},
+	"product_team":{{Input2.text}},
+	"product_description":{{Input3.text}}
+}

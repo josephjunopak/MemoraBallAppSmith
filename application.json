@@ -13,11 +13,11 @@
       "isDefault": false
     },
     {
-      "id": "Sellers - Post and Delete",
+      "id": "Sellers - Post",
       "isDefault": false
     },
     {
-      "id": "Sellers - Personal Information",
+      "id": "Sellers - View and Delete",
       "isDefault": false
     }
   ],
