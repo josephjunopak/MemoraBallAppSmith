@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "POST_Product",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -65,7 +65,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Sellers - Post_Api1",
+  "id": "Sellers - Post_POST_Product",
   "deleted": false,
   "gitSyncId": "64403bb3efbc5071664ac6f5_64408deda8f3606dbee19a43"
 }

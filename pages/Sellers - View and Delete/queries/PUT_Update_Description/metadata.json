@@ -29,9 +29,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"description\" = {{Input3.text}}\n}",
+      "body": "{\n\t\"product_description\" : {{Input3.text}}\n}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

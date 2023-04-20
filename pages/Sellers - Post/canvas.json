@@ -183,7 +183,7 @@
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 16,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "Ball",
                       "minDynamicHeight": 4
                     },
                     {
@@ -244,7 +244,7 @@
                       "maxDynamicHeight": 9000,
                       "decimals": 0,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "1",
                       "minDynamicHeight": 4
                     },
                     {
@@ -305,7 +305,7 @@
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 32,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "1",
                       "minDynamicHeight": 4
                     },
                     {
@@ -366,13 +366,14 @@
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 40,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "This is a ball.",
                       "minDynamicHeight": 4
                     },
                     {
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button1",
+                      "onClick": "{{POST_Product.run(() => showAlert('New Product \"' + Input1.text + '\" Successfully Posted!'), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -387,6 +388,11 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "parentColumnSpace": 17.9375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 4,
                       "dynamicBindingPathList": [
                         {
@@ -453,7 +459,7 @@
               "originalTopRow": 7,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 52,
+              "originalBottomRow": 50,
               "minDynamicHeight": 10
             }
           ]

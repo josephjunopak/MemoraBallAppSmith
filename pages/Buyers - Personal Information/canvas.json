@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 580,
+          "bottomRow": 620,
           "containerStyle": "none",
           "snapRows": 64,
           "parentRowSpace": 1,
@@ -38,7 +38,7 @@
                 "group"
               ],
               "topRow": 1,
-              "bottomRow": 58,
+              "bottomRow": 62,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -59,7 +59,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 620,
+                  "bottomRow": 610,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -78,8 +78,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 54,
-                      "bottomRow": 58,
+                      "topRow": 4,
+                      "bottomRow": 8,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -88,7 +88,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 8,
+                      "leftColumn": 4,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -105,7 +105,7 @@
                       "text": "Confirm User Info",
                       "key": "khrfaduera",
                       "isDeprecated": false,
-                      "rightColumn": 40,
+                      "rightColumn": 36,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "9yv6lshmxj",
@@ -129,7 +129,7 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button2",
-                      "onClick": "{{GET_Buyer_Info.run()}}",
+                      "onClick": "{{GET_Buyer_Info.run(() => {}, () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -238,7 +238,7 @@
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 13,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "1",
                       "minDynamicHeight": 4
                     },
                     {
@@ -844,8 +844,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 58,
-                      "bottomRow": 62,
+                      "topRow": 55,
+                      "bottomRow": 59,
                       "parentRowSpace": 10,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
@@ -945,7 +945,7 @@
                       "maxDynamicHeight": 9000,
                       "originalBottomRow": 41,
                       "iconAlign": "left",
-                      "defaultText": "",
+                      "defaultText": "abc123@gmail.com",
                       "minDynamicHeight": 4
                     },
                     {
@@ -1482,7 +1482,7 @@
               "originalTopRow": 1,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 58,
+              "originalBottomRow": 62,
               "minDynamicHeight": 10
             }
           ]
