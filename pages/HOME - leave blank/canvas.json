@@ -25,66 +25,7 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": [
-            {
-              "boxShadow": "none",
-              "widgetName": "Input1",
-              "displayName": "Input",
-              "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-              "searchTags": [
-                "form",
-                "text input",
-                "number",
-                "textarea"
-              ],
-              "topRow": 4,
-              "bottomRow": 11,
-              "parentRowSpace": 10,
-              "labelWidth": 5,
-              "autoFocus": false,
-              "type": "INPUT_WIDGET_V2",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 13.6875,
-              "resetOnSubmit": true,
-              "leftColumn": 2,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "labelPosition": "Top",
-              "labelStyle": "",
-              "inputType": "TEXT",
-              "isDisabled": false,
-              "key": "uz5uukpx3r",
-              "labelTextSize": "0.875rem",
-              "isRequired": false,
-              "isDeprecated": false,
-              "rightColumn": 22,
-              "dynamicHeight": "FIXED",
-              "widgetId": "uqqww8zolx",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "showStepArrows": false,
-              "minWidth": 450,
-              "isVisible": true,
-              "label": "Label",
-              "version": 2,
-              "parentId": "0",
-              "labelAlignment": "left",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "maxDynamicHeight": 9000,
-              "iconAlign": "left",
-              "defaultText": "",
-              "minDynamicHeight": 4
-            }
-          ]
+          "children": []
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
